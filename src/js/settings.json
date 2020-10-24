@@ -1,0 +1,22 @@
+{
+  "proxy": {
+    "/js/list": {
+      "target": "http://localhost:8080",
+      "pathRewrite": {
+        "^/js": ""
+      }
+    },
+    "/js/add": {
+      "target": "http://localhost:8080",
+      "pathRewrite": {
+        "^/js": ""
+      }
+    },
+    "/js/coords": {
+      "target": "http://localhost:8080",
+      "pathRewrite": {
+        "^/js": ""
+      }
+    }
+  }
+}
